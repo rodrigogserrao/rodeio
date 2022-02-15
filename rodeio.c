@@ -33,18 +33,25 @@ int main()
     int notafinal_comp; //nota final do competidor
     int notafinal_touro; //nota final do touro
 
-    system("clear");
+    system("cls");
     printf("************************************************************\n");
     printf("Informe o nome do evento: ");
-    scanf("%s", &evento);
-    getchar();
+    gets(evento);
+//    scanf("%s", &evento);
     printf("Informe o local do evento: ");
-    scanf("%s", &local);
-    getchar();
+    gets(local);
+//    scanf("%s", &local);
     printf("Informe o numero de competidores: ");
     scanf("%d", &num_competidores);
     printf("Informe o numero de touros do evento: ");
-    scanf("%d", num_touros);
+    scanf("%d", &num_touros);
+
+
+	printf("\n\n\n\n\n");
+	printf("%s\n\n", evento);
+	printf("%s\n\n", local);
+	printf("%d\n\n", num_competidores);
+	printf("%d\n\n", num_touros);
 
 
 
